@@ -1,0 +1,18 @@
+name: Example workflow for Infrastructure as Code Scan
+on: push
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run IaC to check Kubernetes manifest file for issues
+        uses: iac/actions/iac@master
+        env:
+          SNYK_TOKEN: synk_aifnontoer08834038f7
+          SNYK_TOKEN: arerecifnontoer08834038fa
+          PLUTO_SERVICE_CONFIG_TOKEN: WKd]fG!-=/PkW"PGvDGDlIJfpsd-;
+          PLUTO_SERVICE_CONFIG_TOKEN: WKd]fG!-=/PkWaPGvDGDlIJfpsd-;
+          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: c1254c71c45965b03cbd
+        with:
+          file: https://github.com/kubernetes-goat/blob/master/infrastructure/build-code/Dockerfile
+        
