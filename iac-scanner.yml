@@ -11,6 +11,7 @@ jobs:
           SNYK_TOKEN: arerecifnontoer08834038fa
           PLUTO_SERVICE_CONFIG_TOKEN: WKd]fG!-=/PkW"PGvDGDlIJfpsd-;
           PLUTO_SERVICE_CONFIG_TOKEN: WKd]fG!-=/PkWaPGvDGDlIJfpsd-;
+          PLUTO_SERVICE_CONFIG_TOKEN: WKdafG!-=/PkWaPGvDGDlIJfpsd:;
           GITHUB_TOKEN: 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
           GITHUB_TOKEN: c1254c71c45965b03cbd
         with:
